@@ -1,0 +1,188 @@
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color:#333
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+
+    -webkit-box-shadow: 1px 6px 29px -10px rgba(38,33,38,1);
+-moz-box-shadow: 1px 6px 29px -10px rgba(38,33,38,1);
+box-shadow: 1px 6px 29px -10px rgba(38,33,38,1);
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+h1.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    }
+
+    main.principal h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    }
+
+    main.principal a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+div.imgHome{
+display: flex;
+justify-content: space-around;
+}
+
+button.botonInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    border-style: none;
+}
+div.verMas{
+    background-color: #dfdfdf;
+    -webkit-box-shadow: 1px 6px 29px -10px rgba(38,33,38,1);
+-moz-box-shadow: 1px 6px 29px -10px rgba(38,33,38,1);
+box-shadow: 1px 6px 29px -10px rgba(38,33,38,1);
+font-display: none;
+justify-content: center;
+padding: 20px;
+}
+
+div.notasDev{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+/* Página de Mejores Animes */
+body.bestAnimes{
+    background-color: #ffffff;
+}
+ul.mejoresAnimes{
+    background-color: #515151;
+    color: #dcdcdc;
+    padding: 0%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+ul.mejoresAnimes h1{
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    font-size: 50px;
+    margin: 0%;
+}
+
+ul.mejoresAnimes li{
+    padding-left: 2%;
+    padding-bottom: 2%;
+    font-size: 30px;
+}
+
+div.evan{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url(imágenes/NeonGE.jpg);              
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Deforma para llenar */
+    height: 600px;
+    width: 85%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+div.evan h3{
+    padding-top: 2%;
+    font-size: 35px;
+    padding-left: 2%;
+    margin: 0;
+    text-align: justify;
+    margin-right: 50%;
+    font-weight: 450;
+}
+
+div.kaguyaAnime{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url(imágenes/KaguyaSama.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Deforma para llenar */
+
+    height: 600px;
+    width: 85%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+div.kaguyaAnime h3{
+    padding-top: 2%;
+    font-size: 35px;
+    padding-left: 2%;
+    margin: 0;
+    text-align: justify;
+    margin-right: 50%;
+    font-weight: 450;    
+}
+
+
+div.jujutsu{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url(imágenes/nahidwin.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Deforma para llenar */
+
+    height: 600px;
+    width: 85%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+div.jujutsu h3{
+    padding-top: 2%;
+    font-size: 30px;
+    padding-left: 2%;
+    margin: 0;
+    text-align: justify;
+    margin-right: 50%;
+    font-weight: 450;    
+}
+
+
+
+
+
+
